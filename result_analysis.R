@@ -147,7 +147,7 @@ if(ln.tst > 2 ) {result <- ln.tst} else  result <- sapply((sbcd%>%names), actul)
 
 
 
-write.csv(result , file(str_c("/home/hayamukha/Desktop/out/","sample_output_",(reg%>%names)[[1]],"BGS_Sem",sems,month,year,".csv")))
+write.csv(result , file(str_c("/path/","sample_output_",(reg%>%names)[[1]],"BGS_Sem",sems,month,year,".csv")))
 
 
 
